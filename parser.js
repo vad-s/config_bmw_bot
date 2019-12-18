@@ -31,7 +31,7 @@ function filterCarDetails (data) {
 
   function showOptionsOnly (data) {
   let optionsOnly = [];
-  for (let item of resulted) {
+  for (let item of carDetailsFiltered) {
     const regexOptions = RegExp(/^[A-Z0-9]{3,}\s\s\s[A-Za-z0-9а-яА-Я\s(),.\/-]+/);
     if(regexOptions.test(item)) {
       optionsOnly.push(item.join('').split('   '));
