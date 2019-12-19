@@ -60,6 +60,6 @@ class Linker {
             }
         });
         let address = newArr.join(',');
-        return address;
+        return `https://configure.bmw.ru/ru_RU/summary/G01/${model}/${address}`;
     }
 }
