@@ -1,9 +1,5 @@
-/*
-Как запускать парсер
-На выходе получаем массив кодов.
- */
-const FileParser = require('./models/fileParser');
+var t = new Date();
+const newDate = t.now();
+console.log(newDate);
 
-const parser = new FileParser('4196946.xlsx');
-const res = parser.createResultCollection()
-console.log(res);
+console.log(newDate.getTime());

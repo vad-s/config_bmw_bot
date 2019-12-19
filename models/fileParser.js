@@ -7,7 +7,9 @@ class FileParser {
 
     // парсим Эксель и берем из него нужный массив (тот, в котором опции)
     workBookInit() {
-      const workSheetsFromFile = xlsx.parse(`./imported/${this.fileName}`)
+      const workSheetsFromFile = xlsx.parse(this.fileName)
+      // const workSheetsFromFile = xlsx
+      //   .parse(`https://api.telegram.org/file/bot1025805221:AAELMDJ7jfRp0lKRxkU_1PQr2AUY03ZC8YE/documents/file_1.xlsx`)
       for (let item of workSheetsFromFile) {
         if (item.name === 'car') {
           return item.data;
