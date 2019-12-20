@@ -24,5 +24,6 @@
     "telegraf": "^3.34.1",
     "file-type": "latest",
     "turl": "^1.1.2"
-  }
+  },
+  "devDependencies": {}
 }

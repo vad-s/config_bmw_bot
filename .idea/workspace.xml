@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7799d060-0daa-4511-84ff-5e26773e023b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/config_bmw_bot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/fileParser.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/linker.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/.eslintrc.json" beforeDir="false" />
@@ -49,6 +55,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -72,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576762000183</updated>
       <workItem from="1576762001370" duration="3411000" />
-      <workItem from="1576833052510" duration="265000" />
+      <workItem from="1576833052510" duration="537000" />
     </task>
     <servers />
   </component>
