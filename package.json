@@ -1,11 +1,28 @@
 {
-  "name": "bmw_bot",
+  "name": "bmw-configuration-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeowRei/config_bmw_bot.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeowRei/config_bmw_bot/issues"
+  },
+  "homepage": "https://github.com/MeowRei/config_bmw_bot#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "node-xlsx": "^0.15.0",
+    "telegraf": "^3.34.1",
+    "file-type": "latest",
+    "turl": "^1.1.2"
+  }
 }
