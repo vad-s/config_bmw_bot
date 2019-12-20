@@ -9,7 +9,6 @@ require ('http').createServer ().listen (process.env.PORT || 5000).on ('request'
 const bot = new Telegraf (process.env.BOT_TOKEN);
 
 bot.start ((ctx) => ctx.reply ('Здравствуйте, загрузите файл формата .xlsx'));
-// bot.on ('sticker', (ctx) => ctx.replyWithSticker ('CAADAgADRgADUomRI_j-5eQK1QodFgQ'));
 bot.on ('sticker', (ctx) => {
    ctx.reply("Ох ты ж, вот это да-а-а!!!")
    ctx.replyWithSticker ('CAADAgADXAADUomRI1aEI4rcKZp0FgQ')});
