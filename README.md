@@ -1,2 +1,1 @@
-# config_bmw_bot
-# Проект по конфигурации BMW
+# bmw-configuration-bot
